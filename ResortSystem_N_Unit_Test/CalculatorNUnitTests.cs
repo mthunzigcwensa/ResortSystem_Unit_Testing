@@ -49,7 +49,19 @@ namespace ResortSystem_N_Unit_Test
 		
 		}
 
+		[Test]
+		[TestCase(5.9, 10.5)] //15.9
+		[TestCase(5.93, 10.53)] //15.93
+		[TestCase(5.9, 10.5)]
 
-
+		public void AddNumbersDouble_InputTwoDoubles_GetCorrectAddition(double a, double b)
+		{
+			Calculator calc = new();
+			double result = calc.AddNumbersDouble(a, b);
+			Assert.AreEqual(15.9, result, 1);
 		}
+
+
+
+	}
 }
