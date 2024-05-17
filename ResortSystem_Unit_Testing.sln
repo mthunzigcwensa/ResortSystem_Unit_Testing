@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResortSystem", "ResortSyste
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResortSystem_MS_Tests", "ResortSystem_MS_Tests\ResortSystem_MS_Tests.csproj", "{9FEAD59A-6BBB-4293-ABAF-4AC35B8FF5F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResortSystem_N_Unit_Test", "ResortSystem_N_Unit_Test\ResortSystem_N_Unit_Test.csproj", "{51A6C980-5552-47CC-B6D8-ED22136F4DE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9FEAD59A-6BBB-4293-ABAF-4AC35B8FF5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FEAD59A-6BBB-4293-ABAF-4AC35B8FF5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FEAD59A-6BBB-4293-ABAF-4AC35B8FF5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A6C980-5552-47CC-B6D8-ED22136F4DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A6C980-5552-47CC-B6D8-ED22136F4DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A6C980-5552-47CC-B6D8-ED22136F4DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A6C980-5552-47CC-B6D8-ED22136F4DE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
